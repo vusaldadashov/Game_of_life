@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gol">
+        <div class="part1">
+            <h1>GAME OF LIFE</h1>
+            <div class="buttons">
+                <button class="btn btn1" onclick="reset()">Restart</button>
+                <button class="btn btn2" onclick="run()">Run</button>
+                <button class="btn btn3" onclick="pause()">Pause</button>
+                <div>
+                    <h5 class="speedTitle">Speed of game</h5>
+                    <input id="speedText" type="text" class="speedText btn-fast" placeholder="Speed" >
+                    <input id="speedBtn" type="button" class="btn btn-fast" value="Get">
+                    <span id="speedSuccess"></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="part2">
+            <div id="table"></div>
+        </div>
+        
+    </div>
+    <footer>CREATED AND DEVELOPED BY VUSAL DADASHOV</footer>
+    <script src="app.js"></script>
+</body>
+</html>

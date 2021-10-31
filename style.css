@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#table{
+    width: 600px;
+}
+#rows{
+    width: 600px;
+}
+.part2 .cols{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+.part2 .cols:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.gol{
+    display: flex;
+    width: 100%;
+    height: 100;
+}
+.part1{
+    width: 50%;
+    text-align: center;
+    padding-top: 6%;
+}
+.part1 h1{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.part2{
+    width: 50%;
+    padding-top: 20px;
+}
+.buttons {
+    margin-top: 15%;
+    width: 260px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    width: 250px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+    background: none;
+    border: none; 
+    font-size: 18px;
+    border: 1px solid  #2f2f2f;
+}
+.btn-fast{
+    width: 100px;
+    padding: 16px;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btn:hover {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid red;
+   
+}
+footer{
+    width: 100%;
+    background-color: #2f2f2f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.speedText {
+    margin-top: 20px;
+    font-size: 28px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.speedTitle {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#speedSuccess{
+    width: 100%;
+    color: red;
+    margin:0;
+    padding: 0;
+    flex-direction: unset;
+    display: block;
+}
